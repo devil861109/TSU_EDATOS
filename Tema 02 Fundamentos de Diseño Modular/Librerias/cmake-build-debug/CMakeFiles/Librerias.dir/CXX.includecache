@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/AR/Desktop/Librerias/libreria.hpp
+iostream
+-
+
+/cygdrive/c/Users/AR/Desktop/Librerias/main.cpp
+iostream
+-
+libreria.hpp
+/cygdrive/c/Users/AR/Desktop/Librerias/libreria.hpp
+

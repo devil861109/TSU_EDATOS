@@ -26,13 +26,13 @@ cd VilchisDalia
 Type nul > test.txt 
 git add test.txt  
 git commit -m "archivo prueba" 
-git push -u origin master 
- 
+git push -u origin main 
+
 * Push an existing folder / file (en orden) 
 git pull 
 git add .  
 git commit -m "test"  
-git push -u origin master 
+git push -u origin main 
 
 
 Preguntas frecuentes: 
